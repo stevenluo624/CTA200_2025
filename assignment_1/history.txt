@@ -1,0 +1,108 @@
+    1  /cita/local/bin/passwd
+    2  ls
+    3  /fs/lustre/scratch/sluo
+    4  cd /fs/lustre/scratch/sluo
+    5  ls
+    6  mkdir CTA200_2025
+    7  ls
+    8  cd CTA200_2025
+    9  ls
+   10  mkdir assignment_1
+   11  cd assignment_1
+   12  ls
+   13  touch README.md
+   14  vi README.md
+   15  find murray/Hello_world.c
+   16  find ~/murray/Hello_world.c
+   17  find /home/$murray/Hello_world/c
+   18  /home/$murray/Hello_world.c
+   19  find /home/$murray/Hello_world.c
+   20  find ~ -name "Hello_world.c"
+   21  find /home/$murray "Hello_world.c"
+   22  ls
+   23  find /home/murray "Hello_world.c"
+   24  find ~/murray
+   25  find /home/murray
+   26  find /home/murray Hello_world.c
+   27  find /home/murray "Hello_world.py"
+   28  cd /home/murray
+   29  ls
+   30  cd ..
+   31  cd /home/sluo
+   32  ls
+   33  cd 
+   34  ls
+   35  cd /fs/lustre/scratch/sluo
+   36  ;s
+   37  ls
+   38  cd CTA200_2025
+   39  ls
+   40  cd assignment_1
+   41  s
+   42  ls
+   43  find /home/murray -name Hello_world.c
+   44  find /home/murray -name *.c
+   45  find /home/murray -name "Hello_world.c"
+   46  cd 
+   47  ls
+   48  find /home/murray -name "Hello_world.c"
+   49  cd /fs/lustre/scratch/sluo
+   50  ls
+   51  cd ..
+   52  ls
+   53  cd murray
+   54  ls
+   55  cd ..
+   56  find /fs/lustre/scratch/murray -name "Hello_world.c;
+"
+   57  ls
+   58  cd murray
+   59  ls
+   60  cd repos
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd src
+   65  l
+   66  ls
+   67  cd ..
+   68  cd tmp
+   69  ls
+   70  cd ..
+   71  cd bin
+   72  cd ..
+   73  ls
+   74  cd bin
+   75  ls
+   76  cd ..
+   77  ls
+   78  clear
+   79  cd /fs/lustre/scratch/sluo
+   80  ls
+   81  find /home/murray -name "Hello_world.c"
+   82  find /home/murray/. -name "Hello_world.c"
+   83  clear
+   84  find /home/murray/. -name "Hello_world.c" 2>/dev/null
+   85  cp /home/murray/./Papers/tmp/Hello_world.c /fs/lustre/scratch/sluo/CTA200_2025/assignment_1
+   86  ls
+   87  cd CTA200_2025
+   88  ls
+   89  cd assignment_1
+   90  ls
+   91  find /home/murray/. -name "Hello_world.py" 2>/dev/null
+   92  cp /home/murray/./tmp/Hello_world.py /fs/lustre/scratch/sluo/CTA200_2025/assignment_1
+   93  ls
+   94  mv Hello_world.c Hello_world_luo.c
+   95  mv Hello_world.py Hello_world_luo.py
+   96  ls
+   97  gcc Hello_world_luo.c -o Hello_world.x
+   98  ./Hello_world.x
+   99  vi Hello_world_luo.c
+  100  vi Hello_world_luo.py
+  101  gcc Hello_world_luo.c -o Hello_world.x
+  102  ./Hello_world.x > output_c.txt
+  103  python Hello_world_luo.py
+  104  python Hello_world_luo.py > output_python.txt
+  105  ls
+  106  history
+  107  history > history.txt
